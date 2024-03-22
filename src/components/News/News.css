@@ -1,0 +1,34 @@
+.news_list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.news_item {
+    width: 40%;
+
+    border: 1px solid gray;
+
+    margin-top: 20px;
+}
+
+.news_img {
+    width: 100%;
+    height: 200px;
+
+    object-fit: contain;
+}
+
+.content_box {
+    padding: 10px;
+}
+
+.news_title {
+    text-align: left;
+
+    margin-bottom: 10px;
+}
+
+.news_content {
+    text-align: left;
+}
